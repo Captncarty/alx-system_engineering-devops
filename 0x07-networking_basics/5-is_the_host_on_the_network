@@ -6,3 +6,4 @@ if [ "$(echo -n "$1" | wc -m)" == "0" ]; then
 else
 	ping -c 5 "$1"
 fi
+
