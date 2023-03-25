@@ -1,0 +1,6 @@
+#!/bin/bash
+
+# Use ssh to connect to your server using the private key in ~/.ssh/school with
+# user: Ubuntu
+
+ssh -v school
