@@ -1,2 +1,1 @@
-Shell Basics
-System Engineering
+SHELL BASICS SYSTEM ENGINEERING
