@@ -13,5 +13,6 @@ if __name__ == "__main__":
 
     with open("{}.csv".format(user_id), "w", newline="") as csvfile:
         fix_in = csv.writer(csvfile, quoting=csv.QUOTE_ALL)
-        [fix_in.writerow([user_id, username, t.get("completed"), t.get("title")]) 
-        for t in todo]
+        [fix_in.writerow(
+            [user_id, username, t.get("completed"), t.get("title")]) 
+         for t in todo]
