@@ -2,7 +2,10 @@
 #set Nginx to listen on port 80
 
 #remove existing file
-rm /etc/nginx/sites-enabled/default
+sudo rm /etc/nginx/sites-enabled/default
 
 #link default file in sites-availabe with sites-enabled
 sudo ln -s /etc/nginx/sites-available/default /etc/nginx/sites-enabled/
+
+#restart nginx
+sudo service nginx restart
